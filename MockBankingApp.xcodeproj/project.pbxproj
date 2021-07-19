@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E497096726A411A00075558C /* PayeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E497096626A411A00075558C /* PayeeListView.swift */; };
+		E497096926A415920075558C /* PaymentAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E497096826A415920075558C /* PaymentAmountView.swift */; };
+		E497096E26A446400075558C /* TopUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E497096D26A446400075558C /* TopUpViewModel.swift */; };
+		E497097026A4464F0075558C /* PayeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E497096F26A4464F0075558C /* PayeeListViewModel.swift */; };
+		E497097426A47F730075558C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E497097326A47F730075558C /* BaseViewModel.swift */; };
+		E497097626A49CD80075558C /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E497097526A49CD80075558C /* LoginViewModelTests.swift */; };
+		E497097826A49F6F0075558C /* MockCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E497097726A49F6F0075558C /* MockCoreData.swift */; };
 		E4CE90F826A2891D00C1F6CD /* MockBankingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE90F726A2891D00C1F6CD /* MockBankingAppApp.swift */; };
 		E4CE90FA26A2891D00C1F6CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE90F926A2891D00C1F6CD /* ContentView.swift */; };
 		E4CE90FC26A2891D00C1F6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CE90FB26A2891D00C1F6CD /* Assets.xcassets */; };
@@ -15,6 +22,11 @@
 		E4CE910426A2891D00C1F6CD /* MockBankingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4CE910226A2891D00C1F6CD /* MockBankingApp.xcdatamodeld */; };
 		E4CE910F26A2891D00C1F6CD /* MockBankingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE910E26A2891D00C1F6CD /* MockBankingAppTests.swift */; };
 		E4CE911A26A2891D00C1F6CD /* MockBankingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE911926A2891D00C1F6CD /* MockBankingAppUITests.swift */; };
+		E4CE912926A290AF00C1F6CD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE912826A290AF00C1F6CD /* LoginView.swift */; };
+		E4CE912B26A2933600C1F6CD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE912A26A2933600C1F6CD /* DashboardView.swift */; };
+		E4CE912D26A2938700C1F6CD /* TopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE912C26A2938700C1F6CD /* TopUpView.swift */; };
+		E4E7100B26A2F02E0099094D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7100A26A2F02E0099094D /* LoginViewModel.swift */; };
+		E4E7100E26A312880099094D /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7100D26A312880099094D /* DashboardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E497096626A411A00075558C /* PayeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeeListView.swift; sourceTree = "<group>"; };
+		E497096826A415920075558C /* PaymentAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAmountView.swift; sourceTree = "<group>"; };
+		E497096D26A446400075558C /* TopUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpViewModel.swift; sourceTree = "<group>"; };
+		E497096F26A4464F0075558C /* PayeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeeListViewModel.swift; sourceTree = "<group>"; };
+		E497097326A47F730075558C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		E497097526A49CD80075558C /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		E497097726A49F6F0075558C /* MockCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoreData.swift; sourceTree = "<group>"; };
 		E4CE90F426A2891D00C1F6CD /* MockBankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockBankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CE90F726A2891D00C1F6CD /* MockBankingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBankingAppApp.swift; sourceTree = "<group>"; };
 		E4CE90F926A2891D00C1F6CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +68,11 @@
 		E4CE911526A2891D00C1F6CD /* MockBankingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockBankingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CE911926A2891D00C1F6CD /* MockBankingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBankingAppUITests.swift; sourceTree = "<group>"; };
 		E4CE911B26A2891D00C1F6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CE912826A290AF00C1F6CD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E4CE912A26A2933600C1F6CD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E4CE912C26A2938700C1F6CD /* TopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpView.swift; sourceTree = "<group>"; };
+		E4E7100A26A2F02E0099094D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E4E7100D26A312880099094D /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,8 @@
 		E4CE90F626A2891D00C1F6CD /* MockBankingApp */ = {
 			isa = PBXGroup;
 			children = (
+				E4CE913026A294F100C1F6CD /* ViewModel */,
+				E4CE912726A2909400C1F6CD /* View */,
 				E4CE90F726A2891D00C1F6CD /* MockBankingAppApp.swift */,
 				E4CE90F926A2891D00C1F6CD /* ContentView.swift */,
 				E4CE90FB26A2891D00C1F6CD /* Assets.xcassets */,
@@ -123,6 +149,8 @@
 			children = (
 				E4CE910E26A2891D00C1F6CD /* MockBankingAppTests.swift */,
 				E4CE911026A2891D00C1F6CD /* Info.plist */,
+				E497097526A49CD80075558C /* LoginViewModelTests.swift */,
+				E497097726A49F6F0075558C /* MockCoreData.swift */,
 			);
 			path = MockBankingAppTests;
 			sourceTree = "<group>";
@@ -134,6 +162,30 @@
 				E4CE911B26A2891D00C1F6CD /* Info.plist */,
 			);
 			path = MockBankingAppUITests;
+			sourceTree = "<group>";
+		};
+		E4CE912726A2909400C1F6CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4CE912826A290AF00C1F6CD /* LoginView.swift */,
+				E4CE912A26A2933600C1F6CD /* DashboardView.swift */,
+				E4CE912C26A2938700C1F6CD /* TopUpView.swift */,
+				E497096626A411A00075558C /* PayeeListView.swift */,
+				E497096826A415920075558C /* PaymentAmountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4CE913026A294F100C1F6CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E4E7100A26A2F02E0099094D /* LoginViewModel.swift */,
+				E4E7100D26A312880099094D /* DashboardViewModel.swift */,
+				E497096D26A446400075558C /* TopUpViewModel.swift */,
+				E497096F26A4464F0075558C /* PayeeListViewModel.swift */,
+				E497097326A47F730075558C /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +317,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E497096726A411A00075558C /* PayeeListView.swift in Sources */,
+				E497096E26A446400075558C /* TopUpViewModel.swift in Sources */,
 				E4CE910426A2891D00C1F6CD /* MockBankingApp.xcdatamodeld in Sources */,
+				E4E7100E26A312880099094D /* DashboardViewModel.swift in Sources */,
+				E4CE912B26A2933600C1F6CD /* DashboardView.swift in Sources */,
+				E4CE912D26A2938700C1F6CD /* TopUpView.swift in Sources */,
 				E4CE910126A2891D00C1F6CD /* Persistence.swift in Sources */,
 				E4CE90FA26A2891D00C1F6CD /* ContentView.swift in Sources */,
+				E4CE912926A290AF00C1F6CD /* LoginView.swift in Sources */,
 				E4CE90F826A2891D00C1F6CD /* MockBankingAppApp.swift in Sources */,
+				E497097426A47F730075558C /* BaseViewModel.swift in Sources */,
+				E497097026A4464F0075558C /* PayeeListViewModel.swift in Sources */,
+				E4E7100B26A2F02E0099094D /* LoginViewModel.swift in Sources */,
+				E497096926A415920075558C /* PaymentAmountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E497097826A49F6F0075558C /* MockCoreData.swift in Sources */,
+				E497097626A49CD80075558C /* LoginViewModelTests.swift in Sources */,
 				E4CE910F26A2891D00C1F6CD /* MockBankingAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
