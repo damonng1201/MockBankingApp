@@ -11,3 +11,4 @@ Assumptions:
 8. In transfer to screen, all the users besides logged in user will be displayed in the list of payees
 9. When user perform payment, if there is any outstanding debts to the payee, pay amount will deduct outstanding debt amount and update in CoreData DebtEntity, the remaining balance of the pay amount will be treated as a payment transaction to the payee and stored in CoreData TransactionEntity.
 10. When user perform payment, if the payee is having outstanding debts to the user, pay amount will deduct he payee's debts to the user and update in CoreData DebtEntity.
+11. When user perform payment, if the payment amount is greater than user's account balance, the account balance amount will be transferred to the payee and the remaining payment amount after deducted from account balance will be stored in CoreData DebtEntity as new debt to the payee.
