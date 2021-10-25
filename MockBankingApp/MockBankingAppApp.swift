@@ -3,7 +3,7 @@
 //  MockBankingApp
 //
 //  Created by Damon on 17/7/21.
-//
+//  added some comments
 
 import SwiftUI
 
